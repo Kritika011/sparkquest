@@ -1,0 +1,721 @@
+body {
+  background-image: url("/images/coming-soon-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  width: 100vw;
+}
+
+h3 {
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+  font-family: Atomic Age;
+  text-align: center;
+}
+
+h6 {
+  color: azure;
+  font-size: 17px;
+  font-family: 'Atomic Age';
+  text-align: center;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 40px;
+  font-family: 'Montserrat';
+  text-align: center;
+
+}
+
+span {
+  text-align: center;
+  /* margin-left: 10%; */
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.flex-item-left {
+  flex: 25%;
+}
+
+.flex-item-center {
+  flex: 50%;
+}
+
+.flex-item-right {
+  flex: 25%;
+}
+
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 1440px) {
+  .flex-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+.img1 img {
+
+  max-width: auto;
+  height: auto;
+  display: block;
+  margin: 27px auto 0 auto;
+  align-items: center;
+}
+
+.pic2 img {
+  max-width: 177px;
+  height: 200px;
+  margin: 400px 0 0 0;
+  padding-left: 100px;
+  align-self: center;
+}
+
+.pic1 img {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  max-width: 200px;
+  height: 215px;
+  margin-top: 180px;
+  margin-left: 10px;
+  align-self: center;
+}
+
+.image2 img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: 0 auto 0 auto;
+}
+
+
+
+input {
+  max-width: auto;
+  height: auto;
+  border: 0px solid #030333;
+  padding: 2px;
+  transition: 0.5s;
+  /* margin-left: 27%; */
+  background-color: rgb(228, 244, 255);
+  text-align: center;
+  margin-left: 34.5%;
+}
+
+input:focus-visible {
+  outline: rgb(255, 255, 255);
+}
+
+input {
+  border: 2px solid rgba(255, 255, 255, 0.822);
+
+}
+
+input::placeholder {
+  color: #000;
+}
+
+.Send-button {
+  width: auto;
+  height: auto;
+  padding-bottom: 2px;
+  border: 0px solid rgb(0, 0, 0);
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.icon {
+  text-align: center;
+
+}
+
+div.icon .fa {
+  padding: 8px;
+  font-size: 15px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 3px;
+  border-radius: 50%;
+}
+
+.fa-facebook {
+  color: white;
+}
+
+.fa-twitter {
+  color: white;
+}
+
+.fa-youtube {
+  color: white;
+}
+
+.fa-instagram {
+  color: white;
+}
+
+footer>h4 {
+  color: #000000;
+  background-color: rgb(255, 255, 255);
+  font-size: 12px;
+  width: 100%;
+  height: 13px;
+  text-align: center;
+  width: 100%;
+  bottom: 0%;
+  position: fixed;
+}
+
+/* .flex * {
+        display: block !important;
+        text-align: left !important;
+    } */
+
+@media only screen and (max-width:2560px) and (min-width:1440px) {
+  .flex-container {
+    flex-direction: row;
+  }
+
+  .flex-item-left {
+    flex: 20%;
+    /* width: 100%; */
+  }
+
+  .flex-item-center {
+    flex: 60%;
+  }
+
+  .flex-item-right {
+    flex: 20%;
+  }
+
+  .img1 img {
+
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto 0 auto;
+  }
+
+  .pic2 img {
+    max-width: 80%;
+    height: 80%;
+    margin: 350px 0 0 0;
+    padding-left: 20px;
+    align-self: center;
+  }
+
+  .pic1 img {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    max-width: 80%;
+    height: 80%;
+    margin-top: 120px;
+    margin-left: 10px;
+    align-self: center;
+  }
+
+  h3 {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-family: Atomic Age;
+    text-align: center;
+  }
+
+  h6 {
+    color: azure;
+    font-size: 18px;
+    font-family: 'Atomic Age';
+    text-align: center;
+  }
+
+  h1 {
+    color: #ffffff;
+    /* margin-left: 33%; */
+    font-size: 35px;
+    font-family: 'Montserrat';
+    text-align: center;
+
+  }
+
+  .image2 img {
+    width: 50%;
+    height: 40%;
+    display: block;
+    margin: 0 auto 0 auto;
+  }
+
+  input {
+    width: 76%;
+    height: 25px;
+    border: 0px solid #030333;
+    transition: 0.5s;
+    /* margin-left: 27%; */
+    background-color: rgb(228, 244, 255);
+    text-align: center;
+    margin: 0 auto 0 auto;
+    padding-left: 10px;
+
+  }
+
+  .Send-button {
+    width: 20%;
+    height: 28px;
+    padding-bottom: 3px;
+    border: 0px solid rgb(0, 0, 0);
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 17px;
+    cursor: pointer;
+  }
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:1440px) and (min-width:1024px) {
+  .flex-container {
+    flex-direction: row;
+  }
+
+  .flex-item-left {
+    flex: 20%;
+    /* width: 100%; */
+  }
+
+  .flex-item-center {
+    flex: 60%;
+  }
+
+  .flex-item-right {
+    flex: 20%;
+  }
+
+  .img1 img {
+
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto 0 auto;
+  }
+
+  .pic2 img {
+    max-width: 170px;
+    height: 195px;
+    margin: 350px 0 0 0;
+    padding-left: 20px;
+    align-self: center;
+  }
+
+  .pic1 img {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    width: 180px;
+    height: 200px;
+    margin-top: 120px;
+    margin-left: 10px;
+    /* align-self: center; */
+  }
+
+  h3 {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: Atomic Age;
+    text-align: center;
+  }
+
+  h6 {
+    color: azure;
+    font-size: 13.5px;
+    font-family: 'Atomic Age';
+    text-align: center;
+  }
+
+  h1 {
+    color: #ffffff;
+    /* margin-left: 33%; */
+    font-size: 35px;
+    font-family: 'Montserrat';
+    text-align: center;
+
+  }
+
+  .image2 img {
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto 0 auto;
+  }
+
+  input {
+    width: 76%;
+    height: 25px;
+    border: 0px solid #030333;
+    transition: 0.5s;
+    /* margin-left: 27%; */
+    background-color: rgb(228, 244, 255);
+    text-align: center;
+    margin: 0 auto 0 auto;
+    padding-left: 10px;
+
+  }
+
+  .Send-button {
+    width: 20%;
+    height: 28px;
+    padding-bottom: 3px;
+    border: 0px solid rgb(0, 0, 0);
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 17px;
+    cursor: pointer;
+  }
+}
+
+
+
+
+
+
+@media only screen and (max-width:1024px) and (min-width:768px) {
+  .flex-container {
+    flex-direction: row;
+  }
+
+  .flex-item-left {
+    flex: 20%;
+    /* width: 100%; */
+  }
+
+  .flex-item-center {
+    flex: 60%;
+  }
+
+  .flex-item-right {
+    flex: 20%;
+  }
+
+  .img1 img {
+
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto 0 auto;
+  }
+
+  .pic2 img {
+    max-width: 135px;
+    height: 150px;
+    margin: 350px 0 0 0;
+    padding-left: 20px;
+    align-self: center;
+  }
+
+  .pic1 img {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    width: 135px;
+    height: 150px;
+    margin-left: 10px;
+    align-self: center;
+  }
+
+
+  h3 {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: Atomic Age;
+    text-align: center;
+  }
+
+  h6 {
+    color: azure;
+    font-size: 13.5px;
+    font-family: 'Atomic Age';
+    text-align: center;
+  }
+
+  h1 {
+    color: #ffffff;
+    /* margin-left: 33%; */
+    font-size: 35px;
+    font-family: 'Montserrat';
+    text-align: center;
+
+  }
+
+  .image2 img {
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto 0 auto;
+  }
+
+  input {
+    width: 76%;
+    height: 25px;
+    border: 0px solid #030333;
+    transition: 0.5s;
+    /* margin-left: 27%; */
+    background-color: rgb(228, 244, 255);
+    text-align: center;
+    margin: 0 auto 0 auto;
+    padding-left: 10px;
+
+  }
+
+  .Send-button {
+    width: 20%;
+    height: 28px;
+    padding-bottom: 3px;
+    border: 0px solid rgb(0, 0, 0);
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 17px;
+    cursor: pointer;
+  }
+}
+
+
+
+
+@media only screen and (max-width:768px) and (min-width:719px) {
+  .flex-container {
+    flex-direction: row;
+  }
+
+  .flex-item-left {
+    flex: 20%;
+    /* width: 100%; */
+  }
+
+  .flex-item-center {
+    flex: 60%;
+  }
+
+  .flex-item-right {
+    flex: 20%;
+  }
+
+  .img1 img {
+
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto 0 auto;
+  }
+
+  .pic2 img {
+    max-width: 110px;
+    height: 125px;
+    margin: 350px 0 0 0;
+    padding-left: 20px;
+    align-self: center;
+  }
+
+  .pic1 img {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    width: 115px;
+    height: 130px;
+    margin-left: 10px;
+    align-self: center;
+  }
+
+  h3 {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: Atomic Age;
+    text-align: center;
+  }
+
+  h6 {
+    color: azure;
+    font-size: 13.5px;
+    font-family: 'Atomic Age';
+    text-align: center;
+  }
+
+  h1 {
+    color: #ffffff;
+    /* margin-left: 33%; */
+    font-size: 35px;
+    font-family: 'Montserrat';
+    text-align: center;
+
+  }
+
+  .image2 img {
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto 0 auto;
+  }
+
+  input {
+    width: 76%;
+    height: 25px;
+    border: 0px solid #030333;
+    transition: 0.5s;
+    /* margin-left: 27%; */
+    background-color: rgb(228, 244, 255);
+    text-align: center;
+    margin: 0 auto 0 auto;
+    padding-left: 10px;
+
+  }
+
+  .Send-button {
+    width: 20%;
+    height: 28px;
+    padding-bottom: 3px;
+    border: 0px solid rgb(0, 0, 0);
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 17px;
+    cursor: pointer;
+  }
+}
+
+
+
+
+@media only screen and (max-width: 719px) and (min-width:425px) {
+
+  .flex-item-left {
+    flex: 0%;
+    display: none;
+  }
+
+  .flex-item-center {
+    flex: 100%;
+  }
+
+  .flex-item-right {
+    flex: 0%;
+    display: none;
+  }
+
+  .pic2 img {
+    width: 0%;
+    height: 0%;
+    display: none;
+  }
+
+  .pic1 img {
+    width: 0px;
+    height: 0px;
+    display: none;
+  }
+
+  h3 {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: Atomic Age;
+    text-align: center;
+  }
+
+  h6 {
+    color: azure;
+    font-size: 13.5px;
+    font-family: 'Atomic Age';
+    text-align: center;
+  }
+
+  h1 {
+    color: #ffffff;
+    /* margin-left: 33%; */
+    font-size: 35px;
+    font-family: 'Montserrat';
+    text-align: center;
+
+  }
+
+  .image2 img {
+    width: 300px;
+    height: 150px;
+    display: block;
+    margin: 0 auto 0 auto;
+  }
+
+  input {
+    width: 300px;
+    height: 25px;
+    border: 0px solid #030333;
+    transition: 0.5s;
+    /* margin-left: 27%; */
+    background-color: rgb(228, 244, 255);
+    text-align: center;
+    margin: 0 auto 0 auto;
+    margin-left: 5px;
+
+  }
+
+  .Send-button {
+    width: 100px;
+    height: 29px;
+    padding-bottom: 3px;
+    border: 0px solid rgb(0, 0, 0);
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 17px;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (width:719px) {
+  input {
+    width: 300px;
+    height: 25px;
+    border: 0px solid #030333;
+    transition: 0.5s;
+    /* margin-left: 27%; */
+    background-color: rgb(228, 244, 255);
+    text-align: center;
+    margin: 0 auto 0 auto;
+    margin-left: 5px;
+
+  }
+
+  .Send-button {
+    width: 100px;
+    height: 29px;
+    padding-bottom: 3px;
+    border: 0px solid rgb(0, 0, 0);
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 17px;
+    cursor: pointer;
+  }
+}

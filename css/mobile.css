@@ -1,0 +1,403 @@
+
+@media only screen and (max-width:425px) and (min-width:375px){
+    
+    .flex-item-left {
+      flex: 0%;
+      display: none;
+    }
+    .flex-item-center {
+      flex: 100%;
+    }
+    
+    .flex-item-right {
+      flex: 0%;
+      display: none;
+    }
+    .pic2 img{
+      width: 0%; 
+      height: 0%;
+      display: none;
+     }
+  .pic1 img{
+       width: 0px;
+       height: 0px; 
+       display: none;
+  }
+  
+  h3{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: Atomic Age;
+    text-align: center;
+  }
+  h6{
+    color: azure;
+    font-size: 13.5px;
+    font-family: 'Atomic Age';
+    text-align: center;
+  }
+  h1{
+    color: #ffffff;
+    /* margin-left: 33%; */
+    font-size: 31px;
+    font-family:'Montserrat';
+    text-align: center;
+    
+  }
+    .image2 img{
+    width: 300px; 
+    height: 150px;
+     display: block;
+     margin: 0 auto 0 auto;
+    }
+    input{
+      width: 70%;
+      height: 20px;
+      border: 0px solid #030333;
+      transition: 0.5s;
+      /* margin-left: 27%; */
+      background-color: rgb(228, 244, 255);
+      text-align: center;
+      margin: 0 auto 0 auto;  
+  
+      }
+      .Send-button{
+        width: 20%;
+        height: 23px;
+        padding-bottom: 3px;
+        border: 0px solid rgb(0, 0, 0);
+        background:#ffffff;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        font-size: 15px;
+        cursor: pointer;
+        margin: 0 auto 0 auto;
+        }
+  }
+  
+@media only screen and (max-width:375px) and (min-width:319px){
+        
+    .flex-item-left {
+        flex: 0%;
+        display: none;
+      }
+      .flex-item-center {
+        flex: 100%;
+      }
+      
+      .flex-item-right {
+        flex: 0%;
+        display: none;
+      }
+      .pic2 img{
+        width: 0%; 
+        height: 0%;
+        display: none;
+       }
+    .pic1 img{
+         width: 0px;
+         height: 0px; 
+         display: none;
+    }
+    
+    h3{
+      color: rgb(255, 255, 255);
+      font-size: 15px;
+      font-family: Atomic Age;
+      text-align: center;
+    }
+    h6{
+      color: azure;
+      font-size: 13.5px;
+      font-family: 'Atomic Age';
+      text-align: center;
+    }
+    h1{
+      color: #ffffff;
+      /* margin-left: 33%; */
+      font-size: 32px;
+      font-family:'Montserrat';
+      text-align: center;
+      
+    }
+      .image2 img{
+      width: 300px; 
+      height: 150px;
+       display: block;
+       margin: 0 auto 0 auto;
+      }
+      input{
+        width: 230px;
+        height: auto;
+        border: 0px solid #030333;
+        transition: 0.5s;
+        /* margin-left: 27%; */
+        background-color: rgb(228, 244, 255);
+        text-align: center;
+        margin: 0 auto 0 auto;  
+    
+        }
+        .Send-button{
+          width: auto;
+          height: auto;
+          padding-bottom: 3px;
+          border: 0px solid rgb(0, 0, 0);
+          background:#ffffff;
+          color: rgb(0, 0, 0);
+          text-align: center;
+          font-size: 15px;
+          cursor: pointer;
+          margin: 0 auto 0 auto;
+          }
+    }
+@media only screen and (max-width:319px) and (min-width:275px){
+    
+    .flex-item-left {
+      flex: 0%;
+      display: none;
+    }
+    .flex-item-center {
+      flex: 100%;
+    }
+    
+    .flex-item-right {
+      flex: 0%;
+      display: none;
+    }
+    .pic2 img{
+      width: 0%; 
+      height: 0%;
+      display: none;
+     }
+  .pic1 img{
+       width: 0px;
+       height: 0px; 
+       display: none;
+  }
+  .img1 img{
+    width: auto;
+    height: auto;
+    
+  }
+  
+  h3{
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    font-family: Atomic Age;
+    text-align: center;
+  }
+  h6{
+    color: azure;
+    font-size: 12px;
+    font-family: 'Atomic Age';
+    text-align: center;
+  }
+  h1{
+    color: #ffffff;
+    /* margin-left: 33%; */
+    font-size: 22px;
+    font-family:'Montserrat';
+    text-align: center;
+    
+  }
+    .image2 img{
+    width: auto; 
+    height: auto;
+     display: block;
+     margin: 0 auto 0 auto;
+    }
+    input{
+      width: 70%;
+      height: 20px;
+      border: 0px solid #030333;
+      transition: 0.5s;
+      background-color: rgb(228, 244, 255);
+      text-align: center;
+      margin: 0 auto 0 auto; 
+    } 
+      .placeholder{
+        font-size: larger;
+        }
+      .Send-button{
+        width: 20%;
+        height: 23px;
+        padding-bottom: 3px;
+        border: 0px solid rgb(0, 0, 0);
+        background:#ffffff;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        font-size: 14px;
+        cursor: pointer;
+        margin: 0 auto 0 auto;
+        }
+  }
+
+
+  @media only screen and (max-width:275px) and (min-width:230px){
+    
+    .flex-item-left {
+      flex: 0%;
+      display: none;
+    }
+    .flex-item-center {
+      flex: 100%;
+    }
+    
+    .flex-item-right {
+      flex: 0%;
+      display: none;
+    }
+    .pic2 img{
+      width: 0%; 
+      height: 0%;
+      display: none;
+     }
+  .pic1 img{
+       width: 0px;
+       height: 0px; 
+       display: none;
+  }
+  .img1 img{
+    width: auto;
+    height: auto;
+    
+  }
+  
+  h3{
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    font-family: Atomic Age;
+    text-align: center;
+  }
+  h6{
+    color: azure;
+    font-size: 12px;
+    font-family: 'Atomic Age';
+    text-align: center;
+  }
+  h1{
+    color: #ffffff;
+    /* margin-left: 33%; */
+    font-size: 22px;
+    font-family:'Montserrat';
+    text-align: center;
+    
+  }
+    .image2 img{
+    width: auto; 
+    height: auto;
+     display: block;
+     margin: 0 auto 0 auto;
+    }
+    input{
+      width: 70%;
+      height: 17px;
+      border: 0px solid #030333;
+      transition: 0.5s;
+      background-color: rgb(228, 244, 255);
+      text-align: center;
+      margin: 0 auto 0 auto; 
+      padding-left: auto;
+    } 
+      .placeholder{
+        font-size: larger;
+        }
+      .Send-button{
+        width: 20%;
+        height: 20px;
+        padding-bottom: 3px;
+        border: 0px solid rgb(0, 0, 0);
+        background:#ffffff;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        font-size: 14px;
+        cursor: pointer;
+        margin: 0 auto 0 auto;
+        }
+  }
+  
+
+
+
+
+  @media only screen and (max-width:230px) and (min-width:50px){
+      
+      .flex-item-left {
+        flex: 0%;
+        display: none;
+      }
+      .flex-item-center {
+        flex: 100%;
+      }
+      
+      .flex-item-right {
+        flex: 0%;
+        display: none;
+      }
+      .pic2 img{
+        width: 0%; 
+        height: 0%;
+        display: none;
+       }
+    .pic1 img{
+         width: 0px;
+         height: 0px; 
+         display: none;
+    }
+    .img1 img{
+      width: auto;
+      height: auto;
+      
+    }
+    
+    h3{
+      color: rgb(255, 255, 255);
+      font-size: 13px;
+      font-family: Atomic Age;
+      text-align: center;
+    }
+    h6{
+      color: azure;
+      font-size: 12px;
+      font-family: 'Atomic Age';
+      text-align: center;
+    }
+    h1{
+      color: #ffffff;
+      /* margin-left: 33%; */
+      font-size: 15px;
+      font-family:'Montserrat';
+      text-align: center;
+      
+    }
+      .image2 img{
+      width: auto; 
+      height: auto;
+       display: block;
+       margin: 0 auto 0 auto;
+      }
+      input{
+        width: 70%;
+        height: 14px;
+        border: 0px solid #030333;
+        transition: 0.5s;
+        /* margin-left: 27%; */
+        background-color: rgb(228, 244, 255);
+        text-align: center;
+        margin: 0 auto 0 auto;  
+    
+        }
+        .Send-button{
+          width: 20%;
+          height: 17px;
+          padding-bottom: 3px;
+          border: 0px solid rgb(0, 0, 0);
+          background:#ffffff;
+          color: rgb(0, 0, 0);
+          text-align: center;
+          font-size: 15px;
+          cursor: pointer;
+          margin-left: 32%;
+          }
+    }
+   

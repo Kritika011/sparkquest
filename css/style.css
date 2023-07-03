@@ -1,0 +1,23 @@
+.wrpper{
+    width: 100vw;
+}
+@media(max-width:600px){
+    .wrpper{
+        width: 100%;
+    }
+}
+@media(min-width:750px){
+    .wrpper{
+        width: 100%;
+    }
+}
+@media(min-width:600px){
+    .wrpper{
+        width: 100%;
+    }
+}
+@media(min-width:550px){
+    .wrpper{
+        width: 100%;
+    }
+}
