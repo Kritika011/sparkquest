@@ -22,6 +22,9 @@
     <link rel="icon" type="image/x-icon" href="images/logo.png" />
   </head>
   <body>
+    <video autoplay muted loop id="myVideo">
+      <source src="images/bg1.mp4" type="video/mp4">
+    </video>
     <div class="container-fluid d-flex justify-content-center align-items-center">
       <div class="pic2 col-lg-2 mt-4 col-md-3 d-lg-block d-md-none d-sm-none p-2">
         <img src="images/fig.gif" alt="" width="100%" />
@@ -42,9 +45,9 @@
           <div class="h1  justify-content-center  text-light align-items-center">C O M I N G  <span>&nbsp</span> S O O N</div>
 
           <div class="input-group mt-3 p-0 email_query mb-3 container-fluid  d-flex justify-content-center align-items-center">
-            <input type="text" class="form-control bg-none text-white" name="query" placeholder="Enter Your Email " onclick="alert('Your EMAIL ID is submitted...')" aria-label="Recipient's username" aria-describedby="basic-addon2">
+            <input type="text" class="form-control "  name="query" placeholder="Enter Your Email "  aria-label="Recipient's username" aria-describedby="basic-addon2">
             <div class="input-group-append">
-              <button class="btn bg-white text-dark" type="Send-button">Submit</button>
+              <button class="btn fw-bold" type="Send-button" onclick="alert('Your EMAIL ID is submitted...')">Submit</button>
             </div>
           </div>
 

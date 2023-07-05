@@ -1,5 +1,5 @@
 body {
-  background-image: url(../images/coming-soon-bg.png);
+  /* background-image: url(../images/coming-soon-bg.png); */
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -8,6 +8,14 @@ body {
   height: 100vh;
 }
 
+#myVideo{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
 
 .img1 {
   font-size: 17px;
@@ -89,11 +97,25 @@ body {
     font-size: 15px;
     font-family: Montserrat;
   }
-
-
+  .email_query input{
+    color: #fff;
+    background: transparent;
+    border: none;
+  }
+  .email_query input::placeholder{
+    color: #fff;
+  }
 .email_query button {
   cursor: pointer;
-
+  color: rgb(243, 229, 229);
+  /* font-weight: 600; */
+  background: linear-gradient(to right,#0f1c51,#810ca1);
+  margin: 0;
+}
+.email_query button:hover{
+  color: #fff;
+  background: linear-gradient(to left,rgb(73, 73, 227),rgb(232, 80, 179));
+ 
 }
 
 div.icon .fa {
@@ -220,7 +242,7 @@ div.icon:hover .fa{
 
   .h1 {
     font-family: Montserrat;
-    font-size: 50px;
+    font-size: 60px;
     width: 100%;
     font-weight: 700;
     margin: 0px 0px 0px 0px;
@@ -403,7 +425,7 @@ div.icon:hover .fa{
 
   .h1 {
     font-weight: 700;
-    font-size: 22px;
+    font-size: 24px;
     font-family: Montserrat;
     margin: 0px 0px 0px 0px;
     text-align: center;
