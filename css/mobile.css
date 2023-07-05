@@ -53,13 +53,14 @@
     input{
       width: 70%;
       height: 20px;
-      border: 0px solid #030333;
+      /* border: 0px solid #030333; */
       transition: 0.5s;
       /* margin-left: 27%; */
-      background-color: rgb(228, 244, 255);
+      /* background-color: rgb(228, 244, 255); */
       text-align: center;
       margin: 0 auto 0 auto;  
-  
+      /* border:1px solid #ffffff; */
+      /* background: transparent;  */
       }
       .Send-button{
         width: 20%;
@@ -129,13 +130,14 @@
       input{
         width: 230px;
         height: auto;
-        border: 0px solid #030333;
+        /* border: 0px solid #030333; */
         transition: 0.5s;
         /* margin-left: 27%; */
-        background-color: rgb(228, 244, 255);
+        /* background-color: rgb(228, 244, 255); */
         text-align: center;
         margin: 0 auto 0 auto;  
-    
+        /* border: 1px solid white;
+        background:transparent; */
         }
         .Send-button{
           width: auto;
@@ -209,7 +211,7 @@
     input{
       width: 70%;
       height: 20px;
-      border: 0px solid #030333;
+      /* border: 0px solid #030333; */
       transition: 0.5s;
       background-color: rgb(228, 244, 255);
       text-align: center;
@@ -292,9 +294,9 @@
     input{
       width: 70%;
       height: 17px;
-      border: 0px solid #030333;
+      /* border: 0px solid #030333; */
       transition: 0.5s;
-      background-color: rgb(228, 244, 255);
+      /* background-color: rgb(228, 244, 255); */
       text-align: center;
       margin: 0 auto 0 auto; 
       padding-left: auto;
@@ -400,4 +402,4 @@
           margin-left: 32%;
           }
     }
-   
+  

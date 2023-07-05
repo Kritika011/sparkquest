@@ -1,0 +1,423 @@
+body {
+  background-image: url(../images/coming-soon-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-x: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+.img1 {
+  font-size: 17px;
+  font-family: Atomic Age;
+}
+
+.img1 img {
+  margin: 27px auto 0 auto;
+}
+
+.pic1 img {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  width: 180px;
+  height: 200px;
+  margin-top: 120px;
+  margin-left: 10px;
+}
+
+.pic1 {
+  position: relative;
+  animation: moveLeftUp 5s forwards;
+}
+
+@keyframes moveLeftUp {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translate(-100%, -100%) rotate(-55deg);
+  }
+  75% {
+    transform: none;
+  }
+}
+
+.pic2 img {
+  max-width: 170px;
+  height: 195px;
+  margin: 350px 0 0 0;
+  padding-left: 20px;
+  align-self: center;
+}
+
+.pic2 {
+  position: relative;
+  animation: moveRightUp 4s forwards;
+}
+
+@keyframes moveRightUp {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translate(100%, -100%) rotate(15deg);
+  }
+  75% {
+    transform: none;
+  }
+}
+
+.email_query {
+  border: 1px solid #f8f9fa;
+  width: 40%;
+  box-shadow: none;
+  font-size: 10px;
+  border-radius: 4px;
+  font-family: Montserrat;
+  padding: 0px;
+}
+
+.email_query input {
+  background-color: transparent;
+  width: 252px;
+  border: none;
+}
+
+.email_query button {
+  cursor: pointer;
+
+}
+
+div.icon .fa {
+  padding: 8px;
+  font-size: 18px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 3px;
+  border-radius: 50%;
+  transition: all 0.3s;
+  z-index: 3;
+  position: relative;
+}
+
+div.icon:hover .fa {
+  color: #fff;
+  background: linear-gradient(to right, #dc57b4, #3333ff);
+  transform: translateX(-3px); 
+
+}
+.fa-facebook,
+.fa-twitter,
+.fa-youtube,
+.fa-instagram {
+  color: white;
+}
+
+
+@media only screen and (max-width: 1440px) and (min-width: 1024px) {
+  .pic2 img {
+    max-width: 170px;
+    height: 195px;
+    margin: 350px 0 0 0;
+    padding-left: 20px;
+    align-self: center;
+  }
+
+  .pic1 img {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    width: 180px;
+    height: 200px;
+    margin-top: 120px;
+    margin-left: 10px;
+  }
+
+  .h3 {
+    /* color: rgb(255, 255, 255); */
+    font-size: 15px;
+    font-family: Atomic Age;
+    text-align: center;
+  }
+
+  .h6 {
+  
+    font-size: 13.5px;
+    font-family: 'Atomic Age';
+    text-align: center;
+  }
+
+  .h1 {
+      font-family: Montserrat;
+      font-size: 80px;
+      width:747px;
+      font-weight: 700;
+      margin: 0px 0px 0px 0px;
+      text-align: center;
+  }
+
+  .email_query {
+    border: 1px solid #f8f9fa;
+    width: 40%;
+    box-shadow: none;
+    font-size: 10px;
+    font-family: Montserrat;
+  }
+
+  .email_query input {
+    background-color: transparent;
+    width: 252px;
+  }
+
+  .email_query button {
+    font-size: 17px;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  .pic2 img {
+    max-width: 170px;
+    height: 195px;
+    margin: 350px 0 0 0;
+    padding-left: 20px;
+    align-self: center;
+  }
+
+  .pic1 img {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    width: 180px;
+    height: 200px;
+    margin-top: 120px;
+    margin-left: 10px;
+  }
+
+  .h3 {
+    /* color: rgb(255, 255, 255); */
+    font-size: 15px;
+    font-family: Atomic Age;
+    text-align: center;
+  }
+
+  .h6 {
+    /* color: azure; */
+    font-size: 13.5px;
+    font-family: 'Atomic Age';
+    text-align: center;
+  }
+
+  .h1 {
+    /* color: #ffffff; */
+    font-family: Montserrat;
+    font-size: 74px;
+    font-weight: 700;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+  }
+
+  .email_query {
+    border: 1px solid #f8f9fa;
+    width: 40%;
+    box-shadow: none;
+    font-size: 10px;
+    font-family: Montserrat;
+  }
+
+  .email_query input {
+    background-color: transparent;
+    width: 252px;
+  }
+
+  .email_query button {
+    font-size: 17px;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 540px) {
+  .pic2 img {
+    max-width: 170px;
+    height: 195px;
+    margin: 250px 0 0 0;
+    padding-left: 20px;
+    align-self: center;
+  }
+
+  .pic1 img {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    width: 180px;
+    height: 200px;
+    margin-top: 120px;
+    margin-left: 10px;
+  }
+
+  .h3 {
+    /* color: rgb(255, 255, 255); */
+    font-size: 15px;
+    font-family: Atomic Age;
+    text-align: center;
+  }
+
+  .h6 {
+    /* color: azure; */
+    font-size: 13.5px;
+    font-family: 'Atomic Age';
+    text-align: center;
+  }
+
+  .h1 {
+    /* color: #ffffff; */
+    font-size: 60px;
+    font-weight: 600;
+    font-family: Montserrat;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+  }
+
+  .email_query {
+    border: 1px solid #f8f9fa;
+    width: 40%;
+    box-shadow: none;
+    font-size: 10px;
+    font-family: Montserrat;
+  }
+
+  .email_query input {
+    background-color: transparent;
+    width: 252px;
+  }
+
+  .email_query button {
+    font-size: 17px;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .pic2 img {
+    max-width: 170px;
+    height: 195px;
+    margin: 250px 0 0 0;
+    padding-left: 20px;
+    align-self: center;
+  }
+
+  .pic1 img {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    width: 180px;
+    height: 200px;
+    margin-top: 120px;
+    margin-left: 10px;
+  }
+  
+
+  .h3 {
+    /* color: rgb(255, 255, 255); */
+    font-size: 15px;
+    font-family: Atomic Age;
+    text-align: center;
+  }
+
+  .h6 {
+    /* color: azure; */
+    font-size: 13.5px;
+    font-family: 'Atomic Age';
+    text-align: center;
+  }
+
+  .h1 {
+    /* color: #ffffff; */
+    font-weight:300;
+    font-size: 10px;
+    font-family: Montserrat;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+  }
+
+  .email_query {
+    border: 1px solid #f8f9fa;
+    width: 70%;
+    box-shadow: none;
+    font-size: 10px;
+    font-family: Montserrat;
+  }
+
+  .email_query input {
+    background-color: transparent;
+    width: 252px;
+  }
+
+  .email_query button {
+    font-size: 17px;
+    cursor: pointer;
+  }
+}
+.pic1 img {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  width: 180px;
+  height: 200px;
+  margin-top: 120px;
+  margin-left: 10px;
+}
+
+.pic1 {
+  position: relative;
+  animation: moveLeftUp 5s forwards;
+}
+
+@keyframes moveLeftUp {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translate(-100%, -100%) rotate(-55deg);
+  }
+  75% {
+    transform: none;
+  }
+}
+
+.pic2 img {
+  max-width: 170px;
+  height: 195px;
+  margin: 350px 0 0 0;
+  padding-left: 20px;
+  align-self: center;
+}
+
+.pic2 {
+  position: relative;
+  animation: moveRightUp 4s forwards;
+}
+
+@keyframes moveRightUp {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translate(100%, -100%) rotate(15deg);
+  }
+  75% {
+    transform: none;
+  }
+}
+
+/* Mobile View */
+@media only screen and (max-width: 767px) {
+  .pic1,
+  .pic2 {
+    display: none;
+  }
+}
