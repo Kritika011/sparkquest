@@ -5,8 +5,135 @@ body {
   background-attachment: fixed;
   overflow: hidden;
   width: 100vw;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+/*-----------Mycode-------*/
+.wrapper {
+  margin-top: 8px;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
 }
 
+::-webkit-scrollbar {
+  display: none; 
+}
+
+.email_query{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+.email_query input{
+  background-color: transparent;
+  color: #ffffff;
+  padding: 5px;
+  margin-right:1px;
+  border: none;
+ 
+}
+.email_query input::placeholder{
+  color: #ffffff;  
+}
+.email_query button {
+  background-color: #ffffff;
+  border: none;
+  padding: 8px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0;
+}
+footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.flex-item-center{
+  margin-bottom: 20px;
+}
+
+.img1 {
+  animation: rotateAnimation 5s;
+}
+
+@keyframes rotateAnimation {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+
+#cyber  {
+  display: inline-block;
+  opacity: 0;
+  animation: word-animation 4s infinite;
+}
+
+@keyframes word-animation {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.icon a:hover {
+  color: #fff; 
+  background-image: linear-gradient(to right, #dc57b4, #3333ff); 
+}
+.pic1 {
+  position: relative;
+  animation: moveLeftUp 5s forwards;
+}
+
+.pic2 {
+  position: relative;
+  animation: moveRightUp 4s forwards;
+}
+
+@keyframes moveLeftUp {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translate(-100%, -100%)rotate(-55deg);
+  }
+  75% {
+    transform: none;
+  }
+}
+
+@keyframes moveRightUp {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translate(100%, -100%) rotate(15deg);
+  }
+  75% {
+    transform: none;
+  }
+}
+
+
+/*-----------Mycode-------*/
 h3 {
   color: rgb(255, 255, 255);
   font-size: 17px;
@@ -177,11 +304,13 @@ footer>h4 {
   background-color: rgb(255, 255, 255);
   font-size: 12px;
   width: 100%;
-  height: 13px;
+  height: 25px;
   text-align: center;
   width: 100%;
-  bottom: 0%;
+  bottom: 0px;
   position: fixed;
+  padding: 0px;
+  margin: 0px;
 }
 
 /* .flex * {
@@ -267,10 +396,10 @@ footer>h4 {
   input {
     width: 76%;
     height: 25px;
-    border: 0px solid #030333;
+    /* border: 0px solid #030333; */
     transition: 0.5s;
     /* margin-left: 27%; */
-    background-color: rgb(228, 244, 255);
+    /* background-color: rgb(228, 244, 255); */
     text-align: center;
     margin: 0 auto 0 auto;
     padding-left: 10px;
@@ -374,10 +503,10 @@ footer>h4 {
   input {
     width: 76%;
     height: 25px;
-    border: 0px solid #030333;
+    /* border: 0px solid #030333; */
     transition: 0.5s;
     /* margin-left: 27%; */
-    background-color: rgb(228, 244, 255);
+    /* background-color: rgb(228, 244, 255); */
     text-align: center;
     margin: 0 auto 0 auto;
     padding-left: 10px;
@@ -480,10 +609,10 @@ footer>h4 {
   input {
     width: 76%;
     height: 25px;
-    border: 0px solid #030333;
+    /* border: 0px solid #030333; */
     transition: 0.5s;
     /* margin-left: 27%; */
-    background-color: rgb(228, 244, 255);
+    /* background-color: rgb(228, 244, 255); */
     text-align: center;
     margin: 0 auto 0 auto;
     padding-left: 10px;
@@ -579,14 +708,15 @@ footer>h4 {
     display: block;
     margin: 0 auto 0 auto;
   }
+ 
 
   input {
     width: 76%;
     height: 25px;
-    border: 0px solid #030333;
+    /* border: 0px solid #030333; */
     transition: 0.5s;
     /* margin-left: 27%; */
-    background-color: rgb(228, 244, 255);
+    /* background-color: rgb(228, 244, 255); */
     text-align: center;
     margin: 0 auto 0 auto;
     padding-left: 10px;
@@ -670,10 +800,10 @@ footer>h4 {
   input {
     width: 300px;
     height: 25px;
-    border: 0px solid #030333;
+    /* border: 0px solid #030333; */
     transition: 0.5s;
     /* margin-left: 27%; */
-    background-color: rgb(228, 244, 255);
+    /* background-color: rgb(228, 244, 255); */
     text-align: center;
     margin: 0 auto 0 auto;
     margin-left: 5px;
@@ -697,10 +827,10 @@ footer>h4 {
   input {
     width: 300px;
     height: 25px;
-    border: 0px solid #030333;
+    /* border: 0px solid #030333; */
     transition: 0.5s;
     /* margin-left: 27%; */
-    background-color: rgb(228, 244, 255);
+    /* background-color: rgb(228, 244, 255); */
     text-align: center;
     margin: 0 auto 0 auto;
     margin-left: 5px;
