@@ -83,7 +83,7 @@ body {
   }
   .h1 {
     font-family: Montserrat;
-    font-size: 60px;
+    /* font-size: 60px; */
     width: 100%;
     font-weight: 700;
     margin: 0px 0px 0px 0px;
@@ -102,6 +102,9 @@ body {
     background: transparent;
     border: none;
   }
+  .email_query input .custom-input{
+    background-color: transparent;
+  }
   .email_query input::placeholder{
     color: #fff;
   }
@@ -114,8 +117,7 @@ body {
 }
 .email_query button:hover{
   color: #fff;
-  background: linear-gradient(to left,rgb(73, 73, 227),rgb(232, 80, 179));
- 
+  background: linear-gradient(to right, #5f0532, #050d5f);
 }
 
 div.icon .fa {
@@ -130,12 +132,12 @@ div.icon .fa {
   transition: all 0.3s;
   z-index: -1;
   position: relative;
+  cursor: pointer;
 }
 
 div.icon:hover .fa{
   color: #fff;
-  background: linear-gradient(to right, #dc57b4, #3333ff);
-  transform: translateX(-3px); 
+  background: linear-gradient(to right, #5f0532, #050d5f);
 }
 
 .fa-facebook,
@@ -145,7 +147,7 @@ div.icon:hover .fa{
   color: white;
 }
 
-@media only screen and (max-width: 2560px){
+@media only screen and (max-width: 2560px) and (min-width:1440px){
   .pic2 img {
     max-width: 170px;
     height: 195px;
@@ -181,7 +183,7 @@ div.icon:hover .fa{
   }
   .h1 {
     font-family: Montserrat;
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 700;
     margin: 0px 0px 0px 0px;
     text-align: center;
@@ -242,7 +244,7 @@ div.icon:hover .fa{
 
   .h1 {
     font-family: Montserrat;
-    font-size: 60px;
+    font-size: 40px;
     width: 100%;
     font-weight: 700;
     margin: 0px 0px 0px 0px;
