@@ -63,7 +63,7 @@ body {
 
 .pic2 {
   position: relative;
-  animation: moveRightUp 4s forwards;
+  animation: moveRightUp 6s forwards;
 }
 
 @keyframes moveRightUp {
@@ -330,7 +330,14 @@ div.icon:hover .fa{
     cursor: pointer;
   }
 }
-
+#myVideo {
+  position: fixed;
+  /* right: 0; */
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
 @media only screen and (max-width: 768px) and (min-width: 540px) {
   .pic2 img {
     max-width: 170px;
@@ -370,6 +377,7 @@ div.icon:hover .fa{
     font-family: Montserrat;
     margin: 0px 0px 0px 0px;
     text-align: center;
+    transition-delay: 10s;
   }
 
   .email_query {
