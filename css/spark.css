@@ -8,7 +8,7 @@ body {
   height: 100vh;
 }
 
-#myVideo{
+#myVideo {
   position: fixed;
   right: 0;
   bottom: 0;
@@ -23,7 +23,7 @@ body {
 }
 
 .img1 img {
-  margin: 27px auto 0 auto;
+  margin: 30px auto 0 auto;
 }
 
 .pic1 img {
@@ -45,9 +45,11 @@ body {
   0% {
     transform: none;
   }
+
   50% {
     transform: translate(-100%, -100%) rotate(-55deg);
   }
+
   75% {
     transform: none;
   }
@@ -56,7 +58,7 @@ body {
 .pic2 img {
   max-width: 170px;
   height: 195px;
-  margin: 350px 0 0 0;
+  margin: 330px 0 0 0;
   padding-left: 20px;
   align-self: center;
 }
@@ -70,52 +72,61 @@ body {
   0% {
     transform: none;
   }
+
   50% {
     transform: translate(100%, -100%) rotate(15deg);
   }
+
   75% {
     transform: none;
   }
 }
-  .h6{
-    font-family: 'Gothic A1';
-    font: 24px;
-  }
-  .h1 {
-    font-family: Montserrat;
-    /* font-size: 60px; */
-    width: 100%;
-    font-weight: 700;
-    margin: 0px 0px 0px 0px;
-    text-align: center;
-  }
 
-  .email_query {
-    border: 1px solid #f8f9fa;
-    width: 60%;
-    box-shadow: none;
-    font-size: 15px;
-    font-family: Montserrat;
-  }
-  .email_query input{
-    color: #fff;
-    background: transparent;
-    border: none;
-  }
-  .email_query input .custom-input{
-    background-color: transparent;
-  }
-  .email_query input::placeholder{
-    color: #fff;
-  }
+.h6 {
+  font-family: 'Gothic A1';
+  font: 24px;
+}
+
+.h1 {
+  font-family: Montserrat;
+  /* font-size: 60px; */
+  width: 100%;
+  font-weight: 700;
+  margin: 0px 0px 0px 0px;
+  text-align: center;
+}
+
+.email_query {
+  border: 1px solid #f8f9fa;
+  width: 100%;
+  box-shadow: none;
+  font-size: 15px;
+  font-family: Montserrat;
+}
+
+.email_query input {
+  color: #fff;
+  background: transparent;
+  border: none;
+}
+
+.email_query input .custom-input {
+  background-color: transparent;
+}
+
+.email_query input::placeholder {
+  color: #fff;
+}
+
 .email_query button {
   cursor: pointer;
   color: rgb(243, 229, 229);
   /* font-weight: 600; */
-  background: linear-gradient(to right,#0f1c51,#810ca1);
+  background: linear-gradient(to right, #0f1c51, #810ca1);
   margin: 0;
 }
-.email_query button:hover{
+
+.email_query button:hover {
   color: #fff;
   background: linear-gradient(to right, #5f0532, #050d5f);
 }
@@ -123,8 +134,8 @@ body {
 div.icon .fa {
   padding: 8px;
   font-size: 18px;
-  width: 30px; 
-  height: 30px; 
+  width: 30px;
+  height: 30px;
   text-align: center;
   text-decoration: none;
   margin: 3px;
@@ -135,7 +146,7 @@ div.icon .fa {
   cursor: pointer;
 }
 
-div.icon:hover .fa{
+div.icon:hover .fa {
   color: #fff;
   background: linear-gradient(to right, #5f0532, #050d5f);
 }
@@ -147,7 +158,7 @@ div.icon:hover .fa{
   color: white;
 }
 
-@media only screen and (max-width: 2560px) and (min-width:1440px){
+@media only screen and (max-width: 2560px) and (min-width:1440px) {
   .pic2 img {
     max-width: 170px;
     height: 195px;
@@ -174,39 +185,40 @@ div.icon:hover .fa{
   }
 
   .h6 {
-  
+
     font-size: 22px;
     width: 90%;
     font-family: 'Gothic A1';
     text-align: center;
+  }
 }
-  }
-  .h1 {
-    font-family: Montserrat;
-    font-size: 60px;
-    font-weight: 700;
-    margin: 0px 0px 0px 0px;
-    text-align: center;
 
-  }
+.h1 {
+  font-family: Montserrat;
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0px 0px 0px 0px;
+  text-align: center;
 
-  .email_query {
-    border: 1px solid #f8f9fa;
-    width: 50%;
-    box-shadow: none;
-    font-size: 15px;
-    font-family: Montserrat;
-  }
+}
+
+.email_query {
+  border: 1px solid #f8f9fa;
+  width: 50%;
+  box-shadow: none;
+  font-size: 15px;
+  font-family: Montserrat;
+}
 
 
-  .email_query input {
-    background-color: transparent;
-    width: 252px;
-  }
+.email_query input {
+  background-color: transparent;
+  width: 252px;
+}
 
-  .email_query button {
-    cursor: pointer;
-  }
+.email_query button {
+  cursor: pointer;
+}
 
 
 @media only screen and (max-width: 1440px) and (min-width: 1024px) {
@@ -236,7 +248,7 @@ div.icon:hover .fa{
   }
 
   .h6 {
-  
+
     font-size: 18.5px;
     font-family: 'Gothic A1';
     text-align: center;
@@ -330,6 +342,7 @@ div.icon:hover .fa{
     cursor: pointer;
   }
 }
+
 #myVideo {
   position: fixed;
   /* right: 0; */
@@ -338,6 +351,7 @@ div.icon:hover .fa{
   min-height: 100%;
   z-index: -1;
 }
+
 @media only screen and (max-width: 768px) and (min-width: 540px) {
   .pic2 img {
     max-width: 170px;
@@ -367,7 +381,7 @@ div.icon:hover .fa{
   .h6 {
     /* color: azure; */
     font-size: 13.5px;
-    font-family:'Gothic A1';
+    font-family: 'Gothic A1';
     text-align: center;
   }
 
@@ -417,7 +431,7 @@ div.icon:hover .fa{
     margin-top: 120px;
     margin-left: 10px;
   }
-  
+
 
   .h3 {
     /* color: rgb(255, 255, 255); */
@@ -461,13 +475,14 @@ div.icon:hover .fa{
     cursor: pointer;
   }
 }
+
 .pic1 img {
   transform: rotateY(180deg);
   -webkit-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
   width: 180px;
   height: 200px;
-  margin-top: 120px;
+  margin-top: 0px;
   margin-left: 10px;
 }
 
@@ -480,9 +495,11 @@ div.icon:hover .fa{
   0% {
     transform: none;
   }
+
   50% {
     transform: translate(-100%, -100%) rotate(-55deg);
   }
+
   75% {
     transform: none;
   }
@@ -505,9 +522,11 @@ div.icon:hover .fa{
   0% {
     transform: none;
   }
+
   50% {
     transform: translate(100%, -100%) rotate(15deg);
   }
+
   75% {
     transform: none;
   }
@@ -515,8 +534,70 @@ div.icon:hover .fa{
 
 /* Mobile View */
 @media only screen and (max-width: 767px) {
+
   .pic1,
   .pic2 {
     display: none;
+  }
+}
+
+input {
+  /* color: rgba(149, 148, 148, 0.548); */
+  background: rgba(149, 148, 148, 0.548);
+  color: white;
+}
+
+.coming-soon-text {
+  letter-spacing: 18px;
+}
+
+@media only screen and (max-width: 1025px) {
+  .coming-soon-text {
+    letter-spacing: 16px;
+  }
+}
+
+@media only screen and (max-width: 775px) {
+  .coming-soon-text {
+    letter-spacing: 14px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .coming-soon-text {
+    letter-spacing: 10px;
+  }
+}
+
+@media only screen and (max-width: 569px) {
+  .coming-soon-text {
+    letter-spacing: 8px;
+    font-size: 35px;
+  }
+
+  .coming-soon-gap {
+    margin: auto 10px;
+  }
+
+  .coming-soon-container {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .coming-soon-text {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .coming-soon-text {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 350px  ) {
+  .coming-soon-text {
+    font-size: 25px;
   }
 }
