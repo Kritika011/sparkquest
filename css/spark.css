@@ -1,5 +1,5 @@
 body {
-  background-image: url(../images/coming-soon-bg.png);
+  /* background-image: url(../images/coming-soon-bg.png); */
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -8,6 +8,14 @@ body {
   height: 100vh;
 }
 
+#myVideo{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
 
 .img1 {
   font-size: 17px;
@@ -55,7 +63,7 @@ body {
 
 .pic2 {
   position: relative;
-  animation: moveRightUp 4s forwards;
+  animation: moveRightUp 6s forwards;
 }
 
 @keyframes moveRightUp {
@@ -75,7 +83,7 @@ body {
   }
   .h1 {
     font-family: Montserrat;
-    font-size: 60px;
+    /* font-size: 60px; */
     width: 100%;
     font-weight: 700;
     margin: 0px 0px 0px 0px;
@@ -89,11 +97,27 @@ body {
     font-size: 15px;
     font-family: Montserrat;
   }
-
-
+  .email_query input{
+    color: #fff;
+    background: transparent;
+    border: none;
+  }
+  .email_query input .custom-input{
+    background-color: transparent;
+  }
+  .email_query input::placeholder{
+    color: #fff;
+  }
 .email_query button {
   cursor: pointer;
-
+  color: rgb(243, 229, 229);
+  /* font-weight: 600; */
+  background: linear-gradient(to right,#0f1c51,#810ca1);
+  margin: 0;
+}
+.email_query button:hover{
+  color: #fff;
+  background: linear-gradient(to right, #5f0532, #050d5f);
 }
 
 div.icon .fa {
@@ -106,14 +130,14 @@ div.icon .fa {
   margin: 3px;
   border-radius: 50%;
   transition: all 0.3s;
-  z-index: -1;
+  /* z-index: -1; */
   position: relative;
+  cursor: pointer;
 }
 
 div.icon:hover .fa{
   color: #fff;
-  background: linear-gradient(to right, #dc57b4, #3333ff);
-  transform: translateX(-3px); 
+  background: linear-gradient(to right, #5f0532, #050d5f);
 }
 
 .fa-facebook,
@@ -123,7 +147,7 @@ div.icon:hover .fa{
   color: white;
 }
 
-@media only screen and (max-width: 2560px){
+@media only screen and (max-width: 2560px) and (min-width:1440px){
   .pic2 img {
     max-width: 170px;
     height: 195px;
@@ -159,7 +183,7 @@ div.icon:hover .fa{
   }
   .h1 {
     font-family: Montserrat;
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 700;
     margin: 0px 0px 0px 0px;
     text-align: center;
@@ -220,7 +244,7 @@ div.icon:hover .fa{
 
   .h1 {
     font-family: Montserrat;
-    font-size: 50px;
+    font-size: 40px;
     width: 100%;
     font-weight: 700;
     margin: 0px 0px 0px 0px;
@@ -306,7 +330,14 @@ div.icon:hover .fa{
     cursor: pointer;
   }
 }
-
+#myVideo {
+  position: fixed;
+  /* right: 0; */
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
 @media only screen and (max-width: 768px) and (min-width: 540px) {
   .pic2 img {
     max-width: 170px;
@@ -346,6 +377,7 @@ div.icon:hover .fa{
     font-family: Montserrat;
     margin: 0px 0px 0px 0px;
     text-align: center;
+    transition-delay: 10s;
   }
 
   .email_query {
@@ -403,7 +435,7 @@ div.icon:hover .fa{
 
   .h1 {
     font-weight: 700;
-    font-size: 22px;
+    font-size: 24px;
     font-family: Montserrat;
     margin: 0px 0px 0px 0px;
     text-align: center;
